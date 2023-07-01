@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+.menu{
+    height: 20px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.banner{
+    height: 200px;
+     background-color: rgb(114, 167, 16);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.main1{
+    height: 100px;
+    
+}
+.main1 .mani1_child{
+    width: calc(100%/3);
+    float: left;
+    height: 100%;
+    background-color: chocolate;
+}
+.main2{
+    height: 100px;
+
+}
+.main2 .main2_row1_child{
+    width:  calc(100%/2);
+    float:left;
+    height: 100%;
+    background-color: blueviolet;
+}
+.footer{
+    height: 100px;
+    background-color: coral;
+    text-align: center
+    ;
+}
